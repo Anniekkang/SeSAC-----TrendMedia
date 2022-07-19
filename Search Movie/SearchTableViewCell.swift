@@ -15,7 +15,7 @@ enum Movie : String, CaseIterable {
         case .Frozen :
             return UIImage(named: "Frozen")!
         case .Avartar :
-            return UIImage(named: "Avatar")!
+            return UIImage(named: "Avartar")!
         case .Aladin :
             return UIImage(named: "Aladin")!
         case .Monster :
@@ -23,7 +23,7 @@ enum Movie : String, CaseIterable {
         case .thieves :
             return UIImage(named: "thieves")!
         case .taxidriver :
-            return UIImage(named: "taxidraver")!
+            return UIImage(named: "taxidriver")!
         }
     }
     
@@ -33,13 +33,13 @@ enum Movie : String, CaseIterable {
         case .Frozen :
             return "2020.10.30"
         case .Avartar :
-            return "2015.10.30"
+            return "2015.10.29"
         case .Aladin :
-            return "2020.10.30"
+            return "2020.10.28"
         case .Monster :
-            return "1999.10.30"
+            return "1999.10.27"
         case .thieves :
-            return "2002.10.30"
+            return "2002.10.26"
         case .taxidriver :
             return "2020.11.30"
             

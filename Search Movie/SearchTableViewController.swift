@@ -31,11 +31,11 @@ class SearchTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! SearchTableViewCell
-        cell.posterImageView.image = Movie.allCases[indexPath.section].moviePoster
-        cell.movieTitleLabel.text = Movie.allCases[indexPath.section].rawValue
-        cell.movieDateLabel.text = Movie.allCases[indexPath.section].movieDate
+        cell.posterImageView.image = Movie.allCases[indexPath.row].moviePoster
+        cell.movieTitleLabel.text = Movie.allCases[indexPath.row].rawValue
+        cell.movieDateLabel.text = Movie.allCases[indexPath.row].movieDate
         
-        cell.movieContentLabel.text = Movie.allCases[indexPath.section].movieContentLabel
+        cell.movieContentLabel.text = Movie.allCases[indexPath.row].movieContentLabel
         
         
         
