@@ -19,6 +19,8 @@ class SettingTableViewController: UITableViewController {
 
         tableView.rowHeight = 80 // default = 44
         
+        setBackGroundColor()
+        
         
     }
     

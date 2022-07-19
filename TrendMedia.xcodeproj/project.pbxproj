@@ -17,7 +17,16 @@
 		9E82D2262884DDCA002A5011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E82D2242884DDCA002A5011 /* LaunchScreen.storyboard */; };
 		9E82D22E2884F10A002A5011 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E82D22D2884F10A002A5011 /* Home.storyboard */; };
 		9E82D2302884FE3A002A5011 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D22F2884FE3A002A5011 /* SettingTableViewController.swift */; };
-		9E82D2322885131C002A5011 /* setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E82D2312885131C002A5011 /* setting.storyboard */; };
+		9E82D2322885131C002A5011 /* setting - case1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E82D2312885131C002A5011 /* setting - case1.storyboard */; };
+		9EFFB92C2886400F00778319 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB92B2886400F00778319 /* Search.storyboard */; };
+		9EFFB92E2886404700778319 /* Trend - case2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB92D2886404700778319 /* Trend - case2.storyboard */; };
+		9EFFB9302886407900778319 /* Intro - case2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB92F2886407900778319 /* Intro - case2.storyboard */; };
+		9EFFB932288643FA00778319 /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB931288643FA00778319 /* TrendViewController.swift */; };
+		9EFFB9342886441600778319 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB9332886441600778319 /* SearchViewController.swift */; };
+		9EFFB9362886453100778319 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB9352886453100778319 /* UIViewController+Extension.swift */; };
+		9EFFB9382886478800778319 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB9372886478800778319 /* UITextField+Extension.swift */; };
+		9EFFB93A28864B9500778319 /* BucketlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB93928864B9500778319 /* BucketlistTableViewController.swift */; };
+		9EFFB93C28864D9800778319 /* BuketlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB93B28864D9800778319 /* BuketlistTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +42,16 @@
 		9E82D2272884DDCA002A5011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E82D22D2884F10A002A5011 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		9E82D22F2884FE3A002A5011 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
-		9E82D2312885131C002A5011 /* setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = setting.storyboard; sourceTree = "<group>"; };
+		9E82D2312885131C002A5011 /* setting - case1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "setting - case1.storyboard"; sourceTree = "<group>"; };
+		9EFFB92B2886400F00778319 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		9EFFB92D2886404700778319 /* Trend - case2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Trend - case2.storyboard"; sourceTree = "<group>"; };
+		9EFFB92F2886407900778319 /* Intro - case2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Intro - case2.storyboard"; sourceTree = "<group>"; };
+		9EFFB931288643FA00778319 /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
+		9EFFB9332886441600778319 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9EFFB9352886453100778319 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		9EFFB9372886478800778319 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		9EFFB93928864B9500778319 /* BucketlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketlistTableViewController.swift; sourceTree = "<group>"; };
+		9EFFB93B28864D9800778319 /* BuketlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuketlistTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +84,18 @@
 		9E82D2182884DDC8002A5011 /* TrendMedia */ = {
 			isa = PBXGroup;
 			children = (
-				9E82D2312885131C002A5011 /* setting.storyboard */,
+				9E82D2312885131C002A5011 /* setting - case1.storyboard */,
 				9E2AFD9728852CDC00578109 /* setting - case2.storyboard */,
+				9EFFB92B2886400F00778319 /* Search.storyboard */,
+				9EFFB92F2886407900778319 /* Intro - case2.storyboard */,
+				9EFFB92D2886404700778319 /* Trend - case2.storyboard */,
+				9EFFB93B28864D9800778319 /* BuketlistTableViewCell.swift */,
+				9EFFB93928864B9500778319 /* BucketlistTableViewController.swift */,
+				9EFFB931288643FA00778319 /* TrendViewController.swift */,
+				9EFFB9332886441600778319 /* SearchViewController.swift */,
+				9EFFB9352886453100778319 /* UIViewController+Extension.swift */,
 				9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */,
+				9EFFB9372886478800778319 /* UITextField+Extension.swift */,
 				9E82D22F2884FE3A002A5011 /* SettingTableViewController.swift */,
 				9E82D2192884DDC8002A5011 /* AppDelegate.swift */,
 				9E82D21B2884DDC8002A5011 /* SceneDelegate.swift */,
@@ -142,10 +169,13 @@
 			files = (
 				9E82D2262884DDCA002A5011 /* LaunchScreen.storyboard in Resources */,
 				9E82D2232884DDCA002A5011 /* Assets.xcassets in Resources */,
-				9E82D2322885131C002A5011 /* setting.storyboard in Resources */,
+				9E82D2322885131C002A5011 /* setting - case1.storyboard in Resources */,
 				9E82D2212884DDC8002A5011 /* Main.storyboard in Resources */,
+				9EFFB92E2886404700778319 /* Trend - case2.storyboard in Resources */,
+				9EFFB92C2886400F00778319 /* Search.storyboard in Resources */,
 				9E2AFD9828852CDC00578109 /* setting - case2.storyboard in Resources */,
 				9E82D22E2884F10A002A5011 /* Home.storyboard in Resources */,
+				9EFFB9302886407900778319 /* Intro - case2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFFB9382886478800778319 /* UITextField+Extension.swift in Sources */,
+				9EFFB9362886453100778319 /* UIViewController+Extension.swift in Sources */,
 				9E2AFD9A28852CF700578109 /* Setting2TableViewController.swift in Sources */,
+				9EFFB9342886441600778319 /* SearchViewController.swift in Sources */,
+				9EFFB93C28864D9800778319 /* BuketlistTableViewCell.swift in Sources */,
 				9E82D2302884FE3A002A5011 /* SettingTableViewController.swift in Sources */,
 				9E82D21E2884DDC8002A5011 /* ViewController.swift in Sources */,
 				9E82D21A2884DDC8002A5011 /* AppDelegate.swift in Sources */,
+				9EFFB93A28864B9500778319 /* BucketlistTableViewController.swift in Sources */,
+				9EFFB932288643FA00778319 /* TrendViewController.swift in Sources */,
 				9E82D21C2884DDC8002A5011 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
