@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2AFD9828852CDC00578109 /* setting - case2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AFD9728852CDC00578109 /* setting - case2.storyboard */; };
+		9E2AFD9A28852CF700578109 /* Setting2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */; };
 		9E82D21A2884DDC8002A5011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D2192884DDC8002A5011 /* AppDelegate.swift */; };
 		9E82D21C2884DDC8002A5011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D21B2884DDC8002A5011 /* SceneDelegate.swift */; };
 		9E82D21E2884DDC8002A5011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D21D2884DDC8002A5011 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E2AFD9728852CDC00578109 /* setting - case2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "setting - case2.storyboard"; sourceTree = "<group>"; };
+		9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting2TableViewController.swift; sourceTree = "<group>"; };
 		9E82D2162884DDC8002A5011 /* TrendMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E82D2192884DDC8002A5011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E82D21B2884DDC8002A5011 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				9E82D2312885131C002A5011 /* setting.storyboard */,
+				9E2AFD9728852CDC00578109 /* setting - case2.storyboard */,
+				9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */,
 				9E82D22F2884FE3A002A5011 /* SettingTableViewController.swift */,
 				9E82D2192884DDC8002A5011 /* AppDelegate.swift */,
 				9E82D21B2884DDC8002A5011 /* SceneDelegate.swift */,
@@ -138,6 +144,7 @@
 				9E82D2232884DDCA002A5011 /* Assets.xcassets in Resources */,
 				9E82D2322885131C002A5011 /* setting.storyboard in Resources */,
 				9E82D2212884DDC8002A5011 /* Main.storyboard in Resources */,
+				9E2AFD9828852CDC00578109 /* setting - case2.storyboard in Resources */,
 				9E82D22E2884F10A002A5011 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2AFD9A28852CF700578109 /* Setting2TableViewController.swift in Sources */,
 				9E82D2302884FE3A002A5011 /* SettingTableViewController.swift in Sources */,
 				9E82D21E2884DDC8002A5011 /* ViewController.swift in Sources */,
 				9E82D21A2884DDC8002A5011 /* AppDelegate.swift in Sources */,

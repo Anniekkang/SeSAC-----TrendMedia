@@ -17,6 +17,8 @@ class SettingTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.rowHeight = 80 // default = 44
+        
         
     }
     
@@ -55,8 +57,62 @@ class SettingTableViewController: UITableViewController {
         
     }
     //2. 셀의 디자인과 데이터를 넣는 작업 필수 : cellForRowAt/indexPath.row/indexPath.section
+    //재사용메커니즘
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        print("cellforrowat", indexPath)
+        
+        
+        if indexPath.section == 2 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "rightDetailCell")!
+            cell.textLabel?.text = "second 텍스트"
+            cell.textLabel?.textColor = .systemGray
+            cell.detailTextLabel?.text = "Detail Label"
+            
+            //indexPath.row % 2 == 0, 1
+            //두 개의 조건 중
+            if indexPath.row % 2 == 0 {
+                cell.imageView?.image = UIImage(systemName: "star")
+                cell.backgroundColor = .lightGray
+            } else {
+                cell.imageView?.image = UIImage(systemName: "star.fill")
+                cell.backgroundColor = .white
+            }
+            
+            //삼항연산자
+            cell.imageView?.image = indexPath.row % 2 == 0 ? UIImage(systemName: "star") : UIImage(systemName: "star.fill")
+            cell.backgroundColor = indexPath.row % 2 == 0 ? .lightGray : .white
+            
+           
+            return cell
+            
+        } else {
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "settingCell")!
+            
+            
+            if indexPath.section == 0 {
+                
+                cell.textLabel?.text = birthday[indexPath.row]
+                cell.textLabel?.textColor = .systemPink
+            } else if indexPath.section == 1 {
+                cell.textLabel?.text = "second 텍스트"
+                cell.textLabel?.textColor = .systemGray
+            } else {
+                cell.textLabel?.text = "fourth 텍스트"
+                cell.textLabel?.textColor = .systemBlue
+            }
+            
+            cell.textLabel?.font = .boldSystemFont(ofSize: 20)
+            
+            return cell
+            
+        
+            
+            
+        }
+        
+     
         let cell = tableView.dequeueReusableCell(withIdentifier: "settingCell")!
         
         
@@ -81,6 +137,16 @@ class SettingTableViewController: UITableViewController {
         
     }
     
+    //셀의 높이(옵션, 빈도높은, tableView.rowHeight)
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        //if indexPath == [0,0]
+        if indexPath.section == 0 && indexPath.row == 0 {
+            return 400
+        } else {
+            return 44
+        }
+    }
     
     
 }
