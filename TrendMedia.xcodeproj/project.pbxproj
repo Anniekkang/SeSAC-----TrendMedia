@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E1C218B2886EA8B00F3E8CA /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C218A2886EA8B00F3E8CA /* SearchTableViewController.swift */; };
+		9E1C218D2886EBFF00F3E8CA /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C218C2886EBFF00F3E8CA /* SearchTableViewCell.swift */; };
 		9E2AFD9828852CDC00578109 /* setting - case2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AFD9728852CDC00578109 /* setting - case2.storyboard */; };
 		9E2AFD9A28852CF700578109 /* Setting2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */; };
 		9E82D21A2884DDC8002A5011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D2192884DDC8002A5011 /* AppDelegate.swift */; };
@@ -23,7 +25,7 @@
 		9EE0538F2886A9AF00DD962B /* shoppingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE0538E2886A9AF00DD962B /* shoppingStoryboard.storyboard */; };
 		9EE053912886A9E200DD962B /* shoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE053902886A9E200DD962B /* shoppingTableViewController.swift */; };
 		9EE053942886B08500DD962B /* shoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE053932886B08500DD962B /* shoppingTableViewCell.swift */; };
-		9EFFB92C2886400F00778319 /* Search - case2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB92B2886400F00778319 /* Search - case2.storyboard */; };
+		9EFFB92C2886400F00778319 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB92B2886400F00778319 /* Search.storyboard */; };
 		9EFFB92E2886404700778319 /* Trend - case2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB92D2886404700778319 /* Trend - case2.storyboard */; };
 		9EFFB9302886407900778319 /* Intro - case2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB92F2886407900778319 /* Intro - case2.storyboard */; };
 		9EFFB932288643FA00778319 /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB931288643FA00778319 /* TrendViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E1C218A2886EA8B00F3E8CA /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		9E1C218C2886EBFF00F3E8CA /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		9E2AFD9728852CDC00578109 /* setting - case2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "setting - case2.storyboard"; sourceTree = "<group>"; };
 		9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting2TableViewController.swift; sourceTree = "<group>"; };
 		9E82D2162884DDC8002A5011 /* TrendMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +57,7 @@
 		9EE0538E2886A9AF00DD962B /* shoppingStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = shoppingStoryboard.storyboard; sourceTree = "<group>"; };
 		9EE053902886A9E200DD962B /* shoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingTableViewController.swift; sourceTree = "<group>"; };
 		9EE053932886B08500DD962B /* shoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingTableViewCell.swift; sourceTree = "<group>"; };
-		9EFFB92B2886400F00778319 /* Search - case2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Search - case2.storyboard"; sourceTree = "<group>"; };
+		9EFFB92B2886400F00778319 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		9EFFB92D2886404700778319 /* Trend - case2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Trend - case2.storyboard"; sourceTree = "<group>"; };
 		9EFFB92F2886407900778319 /* Intro - case2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Intro - case2.storyboard"; sourceTree = "<group>"; };
 		9EFFB931288643FA00778319 /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
@@ -75,9 +79,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E1C218E2886EC1000F3E8CA /* Search Movie */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFB92B2886400F00778319 /* Search.storyboard */,
+				9E1C218C2886EBFF00F3E8CA /* SearchTableViewCell.swift */,
+				9E1C218A2886EA8B00F3E8CA /* SearchTableViewController.swift */,
+			);
+			path = "Search Movie";
+			sourceTree = "<group>";
+		};
 		9E82D20D2884DDC8002A5011 = {
 			isa = PBXGroup;
 			children = (
+				9E1C218E2886EC1000F3E8CA /* Search Movie */,
 				9EE0538D288699B200DD962B /* Exercise */,
 				9E82D2182884DDC8002A5011 /* TrendMedia */,
 				9E82D2172884DDC8002A5011 /* Products */,
@@ -98,7 +113,6 @@
 				9EE053922886A9F100DD962B /* shopping */,
 				9E82D2312885131C002A5011 /* setting - case1.storyboard */,
 				9E2AFD9728852CDC00578109 /* setting - case2.storyboard */,
-				9EFFB92B2886400F00778319 /* Search - case2.storyboard */,
 				9EFFB92F2886407900778319 /* Intro - case2.storyboard */,
 				9EFFB92D2886404700778319 /* Trend - case2.storyboard */,
 				9EFFB93B28864D9800778319 /* BuketlistTableViewCell.swift */,
@@ -204,7 +218,7 @@
 				9E82D2322885131C002A5011 /* setting - case1.storyboard in Resources */,
 				9E82D2212884DDC8002A5011 /* Main.storyboard in Resources */,
 				9EFFB92E2886404700778319 /* Trend - case2.storyboard in Resources */,
-				9EFFB92C2886400F00778319 /* Search - case2.storyboard in Resources */,
+				9EFFB92C2886400F00778319 /* Search.storyboard in Resources */,
 				9E2AFD9828852CDC00578109 /* setting - case2.storyboard in Resources */,
 				9E82D22E2884F10A002A5011 /* Home.storyboard in Resources */,
 				9EE0538F2886A9AF00DD962B /* shoppingStoryboard.storyboard in Resources */,
@@ -226,11 +240,13 @@
 				9EFFB93C28864D9800778319 /* BuketlistTableViewCell.swift in Sources */,
 				9EE053942886B08500DD962B /* shoppingTableViewCell.swift in Sources */,
 				9EE0538A2886992000DD962B /* exerciseTableViewController.swift in Sources */,
+				9E1C218B2886EA8B00F3E8CA /* SearchTableViewController.swift in Sources */,
 				9E82D2302884FE3A002A5011 /* SettingTableViewController.swift in Sources */,
 				9E82D21E2884DDC8002A5011 /* ViewController.swift in Sources */,
 				9EE053912886A9E200DD962B /* shoppingTableViewController.swift in Sources */,
 				9E82D21A2884DDC8002A5011 /* AppDelegate.swift in Sources */,
 				9EFFB93A28864B9500778319 /* BucketlistTableViewController.swift in Sources */,
+				9E1C218D2886EBFF00F3E8CA /* SearchTableViewCell.swift in Sources */,
 				9EFFB932288643FA00778319 /* TrendViewController.swift in Sources */,
 				9E82D21C2884DDC8002A5011 /* SceneDelegate.swift in Sources */,
 			);
