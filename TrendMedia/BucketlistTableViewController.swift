@@ -55,6 +55,7 @@ class BucketlistTableViewController: UITableViewController {
         return true
     }
     
+   
     //우측스와이프 디폴트 기능 : commit editingStyle
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         
@@ -65,7 +66,7 @@ class BucketlistTableViewController: UITableViewController {
         }
     }
     
-    
+  
 //    override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
 //        //즐겨찾기버튼, 핀고정, 왼쪽에서 나옴
 //    }

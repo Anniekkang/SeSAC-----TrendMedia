@@ -8,24 +8,24 @@
     </dependencies>
     <scenes>
         <!--setting - case2-->
-        <scene sceneID="HCS-3r-MrO">
+        <scene sceneID="R32-Zw-Mpp">
             <objects>
-                <viewControllerPlaceholder storyboardName="setting - case2" id="uN8-iM-5yx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="04P-yp-LKv"/>
+                <viewControllerPlaceholder storyboardName="setting - case2" id="mLb-dL-rjX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="U5v-Re-vV3"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hQC-JX-zeq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3DK-MD-UqU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="309" y="-318"/>
+            <point key="canvasLocation" x="420" y="-399"/>
         </scene>
-        <!--Search-->
-        <scene sceneID="6zK-xp-DH0">
+        <!--Search - case2-->
+        <scene sceneID="hiE-cD-cjI">
             <objects>
-                <viewControllerPlaceholder storyboardName="Search" id="984-MC-foq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="xrc-DW-SZ0"/>
+                <viewControllerPlaceholder storyboardName="Search - case2" id="UE4-e8-Kny" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="g01-yp-Uu9"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Sv-AT-2Qv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ylV-Yi-glO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="704" y="-258"/>
+            <point key="canvasLocation" x="701" y="-254"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tnm-vZ-JjM">
@@ -37,9 +37,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="uN8-iM-5yx" kind="relationship" relationship="viewControllers" id="1BU-ea-56a"/>
-                        <segue destination="984-MC-foq" kind="relationship" relationship="viewControllers" id="Imx-L6-oXi"/>
                         <segue destination="ZbF-Ed-egc" kind="relationship" relationship="viewControllers" id="U6Q-mb-fDr"/>
+                        <segue destination="mLb-dL-rjX" kind="relationship" relationship="viewControllers" id="gEx-sb-HQY"/>
+                        <segue destination="UE4-e8-Kny" kind="relationship" relationship="viewControllers" id="hez-zW-n8D"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o70-nJ-YB5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
