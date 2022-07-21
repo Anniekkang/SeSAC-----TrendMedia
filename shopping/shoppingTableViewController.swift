@@ -11,7 +11,7 @@ class shoppingTableViewController: UITableViewController {
 
  
     @IBOutlet weak var shoppingTextField: UITextField!
-    var shoppingList : [String] = ["새싹수업듣기","새싹과제하기","새싹피드백고치기","약과사오기"]
+    var shoppingList : [String] = ["우유사기","과자사기","투게더사기","약과사기"]
     
     @IBOutlet weak var shoppingButton: UIButton!
     

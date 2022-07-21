@@ -11,6 +11,7 @@
 		9E1C218D2886EBFF00F3E8CA /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C218C2886EBFF00F3E8CA /* SearchTableViewCell.swift */; };
 		9E2AFD9828852CDC00578109 /* setting - case2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AFD9728852CDC00578109 /* setting - case2.storyboard */; };
 		9E2AFD9A28852CF700578109 /* Setting2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */; };
+		9E44533E2888E75700528BB9 /* TrendTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44533D2888E75700528BB9 /* TrendTableTableViewController.swift */; };
 		9E82D21A2884DDC8002A5011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D2192884DDC8002A5011 /* AppDelegate.swift */; };
 		9E82D21C2884DDC8002A5011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D21B2884DDC8002A5011 /* SceneDelegate.swift */; };
 		9E82D21E2884DDC8002A5011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D21D2884DDC8002A5011 /* ViewController.swift */; };
@@ -20,6 +21,14 @@
 		9E82D22E2884F10A002A5011 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E82D22D2884F10A002A5011 /* Home.storyboard */; };
 		9E82D2302884FE3A002A5011 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82D22F2884FE3A002A5011 /* SettingTableViewController.swift */; };
 		9E82D2322885131C002A5011 /* setting - case1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E82D2312885131C002A5011 /* setting - case1.storyboard */; };
+		9EA3E0FC2887870D00D664DA /* assignment2MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3E0FB2887870D00D664DA /* assignment2MovieTableViewController.swift */; };
+		9EA3E0FE2887876E00D664DA /* assignment2MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3E0FD2887876E00D664DA /* assignment2MovieTableViewCell.swift */; };
+		9EA3E10128878CA000D664DA /* assignmentMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3E10028878CA000D664DA /* assignmentMovie.swift */; };
+		9EA3E1032887950F00D664DA /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3E1022887950F00D664DA /* MovieInfo.swift */; };
+		9EA3E10528879AA200D664DA /* RecommandCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3E10428879AA200D664DA /* RecommandCollectionViewController.swift */; };
+		9EA3E10828879DFD00D664DA /* RecommandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3E10728879DFD00D664DA /* RecommandCollectionViewCell.swift */; };
+		9EA3E10B2887AE4A00D664DA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA3E10A2887AE4A00D664DA /* Kingfisher */; };
+		9EA3E10E2887AE6200D664DA /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA3E10D2887AE6200D664DA /* Toast */; };
 		9EE0538A2886992000DD962B /* exerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE053892886992000DD962B /* exerciseTableViewController.swift */; };
 		9EE0538C288699A900DD962B /* exercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE0538B288699A900DD962B /* exercise.storyboard */; };
 		9EE0538F2886A9AF00DD962B /* shoppingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE0538E2886A9AF00DD962B /* shoppingStoryboard.storyboard */; };
@@ -41,6 +50,7 @@
 		9E1C218C2886EBFF00F3E8CA /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		9E2AFD9728852CDC00578109 /* setting - case2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "setting - case2.storyboard"; sourceTree = "<group>"; };
 		9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting2TableViewController.swift; sourceTree = "<group>"; };
+		9E44533D2888E75700528BB9 /* TrendTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTableTableViewController.swift; sourceTree = "<group>"; };
 		9E82D2162884DDC8002A5011 /* TrendMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E82D2192884DDC8002A5011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E82D21B2884DDC8002A5011 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +62,12 @@
 		9E82D22D2884F10A002A5011 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		9E82D22F2884FE3A002A5011 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		9E82D2312885131C002A5011 /* setting - case1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "setting - case1.storyboard"; sourceTree = "<group>"; };
+		9EA3E0FB2887870D00D664DA /* assignment2MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment2MovieTableViewController.swift; sourceTree = "<group>"; };
+		9EA3E0FD2887876E00D664DA /* assignment2MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment2MovieTableViewCell.swift; sourceTree = "<group>"; };
+		9EA3E10028878CA000D664DA /* assignmentMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignmentMovie.swift; sourceTree = "<group>"; };
+		9EA3E1022887950F00D664DA /* MovieInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
+		9EA3E10428879AA200D664DA /* RecommandCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandCollectionViewController.swift; sourceTree = "<group>"; };
+		9EA3E10728879DFD00D664DA /* RecommandCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandCollectionViewCell.swift; sourceTree = "<group>"; };
 		9EE053892886992000DD962B /* exerciseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseTableViewController.swift; sourceTree = "<group>"; };
 		9EE0538B288699A900DD962B /* exercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = exercise.storyboard; sourceTree = "<group>"; };
 		9EE0538E2886A9AF00DD962B /* shoppingStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = shoppingStoryboard.storyboard; sourceTree = "<group>"; };
@@ -73,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA3E10E2887AE6200D664DA /* Toast in Frameworks */,
+				9EA3E10B2887AE4A00D664DA /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +110,9 @@
 		9E82D20D2884DDC8002A5011 = {
 			isa = PBXGroup;
 			children = (
+				9EA3E10628879AEC00D664DA /* collectionView - 수업 */,
+				9EA3E0FF28878C6C00D664DA /* assignment2Movie - 정답 */,
+				9EE053922886A9F100DD962B /* shopping */,
 				9E1C218E2886EC1000F3E8CA /* Search Movie */,
 				9EE0538D288699B200DD962B /* Exercise */,
 				9E82D2182884DDC8002A5011 /* TrendMedia */,
@@ -110,11 +131,10 @@
 		9E82D2182884DDC8002A5011 /* TrendMedia */ = {
 			isa = PBXGroup;
 			children = (
-				9EE053922886A9F100DD962B /* shopping */,
-				9E82D2312885131C002A5011 /* setting - case1.storyboard */,
 				9E2AFD9728852CDC00578109 /* setting - case2.storyboard */,
 				9EFFB92F2886407900778319 /* Intro - case2.storyboard */,
-				9EFFB92D2886404700778319 /* Trend - case2.storyboard */,
+				9E82D2312885131C002A5011 /* setting - case1.storyboard */,
+				9E44533D2888E75700528BB9 /* TrendTableTableViewController.swift */,
 				9EFFB93B28864D9800778319 /* BuketlistTableViewCell.swift */,
 				9EFFB93928864B9500778319 /* BucketlistTableViewController.swift */,
 				9E2AFD9928852CF700578109 /* Setting2TableViewController.swift */,
@@ -133,6 +153,29 @@
 				9E82D2242884DDCA002A5011 /* LaunchScreen.storyboard */,
 			);
 			path = TrendMedia;
+			sourceTree = "<group>";
+		};
+		9EA3E0FF28878C6C00D664DA /* assignment2Movie - 정답 */ = {
+			isa = PBXGroup;
+			children = (
+				9EA3E0FB2887870D00D664DA /* assignment2MovieTableViewController.swift */,
+				9EA3E0FD2887876E00D664DA /* assignment2MovieTableViewCell.swift */,
+				9EA3E10028878CA000D664DA /* assignmentMovie.swift */,
+				9EA3E1022887950F00D664DA /* MovieInfo.swift */,
+			);
+			name = "assignment2Movie - 정답";
+			path = "assignment2Movie - 정답";
+			sourceTree = "<group>";
+		};
+		9EA3E10628879AEC00D664DA /* collectionView - 수업 */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFB92D2886404700778319 /* Trend - case2.storyboard */,
+				9EA3E10728879DFD00D664DA /* RecommandCollectionViewCell.swift */,
+				9EA3E10428879AA200D664DA /* RecommandCollectionViewController.swift */,
+			);
+			name = "collectionView - 수업";
+			path = "collectionView - 수업";
 			sourceTree = "<group>";
 		};
 		9EE0538D288699B200DD962B /* Exercise */ = {
@@ -170,6 +213,10 @@
 			dependencies = (
 			);
 			name = TrendMedia;
+			packageProductDependencies = (
+				9EA3E10A2887AE4A00D664DA /* Kingfisher */,
+				9EA3E10D2887AE6200D664DA /* Toast */,
+			);
 			productName = TrendMedia;
 			productReference = 9E82D2162884DDC8002A5011 /* TrendMedia.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +245,10 @@
 				Base,
 			);
 			mainGroup = 9E82D20D2884DDC8002A5011;
+			packageReferences = (
+				9EA3E1092887AE4A00D664DA /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				9EA3E10C2887AE6200D664DA /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = 9E82D2172884DDC8002A5011 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,15 +286,22 @@
 			files = (
 				9EFFB9382886478800778319 /* UITextField+Extension.swift in Sources */,
 				9EFFB9362886453100778319 /* UIViewController+Extension.swift in Sources */,
+				9EA3E0FC2887870D00D664DA /* assignment2MovieTableViewController.swift in Sources */,
+				9EA3E10828879DFD00D664DA /* RecommandCollectionViewCell.swift in Sources */,
 				9E2AFD9A28852CF700578109 /* Setting2TableViewController.swift in Sources */,
 				9EFFB9342886441600778319 /* SearchViewController.swift in Sources */,
 				9EFFB93C28864D9800778319 /* BuketlistTableViewCell.swift in Sources */,
+				9EA3E1032887950F00D664DA /* MovieInfo.swift in Sources */,
+				9E44533E2888E75700528BB9 /* TrendTableTableViewController.swift in Sources */,
 				9EE053942886B08500DD962B /* shoppingTableViewCell.swift in Sources */,
 				9EE0538A2886992000DD962B /* exerciseTableViewController.swift in Sources */,
 				9E1C218B2886EA8B00F3E8CA /* SearchTableViewController.swift in Sources */,
+				9EA3E10128878CA000D664DA /* assignmentMovie.swift in Sources */,
+				9EA3E10528879AA200D664DA /* RecommandCollectionViewController.swift in Sources */,
 				9E82D2302884FE3A002A5011 /* SettingTableViewController.swift in Sources */,
 				9E82D21E2884DDC8002A5011 /* ViewController.swift in Sources */,
 				9EE053912886A9E200DD962B /* shoppingTableViewController.swift in Sources */,
+				9EA3E0FE2887876E00D664DA /* assignment2MovieTableViewCell.swift in Sources */,
 				9E82D21A2884DDC8002A5011 /* AppDelegate.swift in Sources */,
 				9EFFB93A28864B9500778319 /* BucketlistTableViewController.swift in Sources */,
 				9E1C218D2886EBFF00F3E8CA /* SearchTableViewCell.swift in Sources */,
@@ -468,6 +526,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9EA3E1092887AE4A00D664DA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		9EA3E10C2887AE6200D664DA /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9EA3E10A2887AE4A00D664DA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EA3E1092887AE4A00D664DA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		9EA3E10D2887AE6200D664DA /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EA3E10C2887AE6200D664DA /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9E82D20E2884DDC8002A5011 /* Project object */;
 }
