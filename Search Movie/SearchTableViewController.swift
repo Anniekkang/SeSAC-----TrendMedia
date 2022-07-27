@@ -8,14 +8,38 @@
 import UIKit
 
 class SearchTableViewController: UITableViewController {
+    
+    var movieList = MovieInfo()
+    static var identifier = "SearchTableViewController"
 
     @IBOutlet weak var searchTextField: UITextField!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "처음으로", style: .plain, target: self, action: #selector(resetButtonClicked))
+        
+        
+        
+        
+        
         tableView.reloadData()
     
+    }
+    
+    @objc func resetButtonClicked(){
+        
+        let sb = UIStoryboard(name: "Trend - case2", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        
+        
+       //iOS13+ SceneDelegate 를 쓸 때 동작하는 코드
+        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene //앱을 처음 킨 상태로 돌아가는 코드
+        let sceneDelegate = windowScene?.delegate as? SceneDelegate
+        sceneDelegate?.window?.rootViewController = vc
+        sceneDelegate?.window?.makeKeyAndVisible()
+        
     }
 
     //섹션의 갯수 = 1, 셀의 갯수 = 배열의 수 만큼,
@@ -47,6 +71,19 @@ class SearchTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200
          
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        print("didselectRowAt") //동작하지 않는다면? 1. TableView가 noselection, 2 셀위에 전체버튼
+        let sb = UIStoryboard(name: "Trend - case2", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "RecommandCollectionViewController") as! RecommandCollectionViewController
+        
+        //2. 값전달 - vc가 가지고 있는 프로퍼티에 데이터 추가
+        let title = movieList.movie[indexPath.row].title
+        let release = movieList.movie[indexPath.row].releaseDate
+       
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
 }

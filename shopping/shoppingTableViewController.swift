@@ -10,6 +10,8 @@ import UIKit
 class shoppingTableViewController: UITableViewController {
 
  
+    static let identifier = "shoppingTableViewController"
+    
     @IBOutlet weak var shoppingTextField: UITextField!
     var shoppingList : [String] = ["우유사기","과자사기","투게더사기","약과사기"]
     
@@ -20,6 +22,14 @@ class shoppingTableViewController: UITableViewController {
         super.viewDidLoad()
 
         
+        navigationItem.title = "Books"
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "xmark"), style: .plain, target: self, action: #selector(closedFunction))
+        
+        
+
+
+
+                                                    
         shoppingButton.setTitle("추가", for: .normal)
         shoppingButton.setTitleColor(.systemGray3, for: .normal)
         shoppingTextField.attributedPlaceholder = NSAttributedString(string: "무엇을 구매하실 건가요?", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
@@ -27,6 +37,9 @@ class shoppingTableViewController: UITableViewController {
         shoppingTextField.backgroundColor = .systemGray
         
  
+    }
+    @objc func closedFunction(){
+        self.dismiss(animated: true)
     }
 
     
